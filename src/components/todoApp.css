@@ -1,6 +1,12 @@
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
 .todoContainer{
     width: 500px;
-    margin: 100px auto;
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
 }
@@ -23,7 +29,9 @@
     border-radius: 3px;
     background-color: rgb(26, 76, 169);
     color: white;
-    padding: 10px 20px;
+    padding: 10px 10px;
+    width: 160px;
+    font-size: 17px;
 }
 
 .todosContainer{
@@ -54,7 +62,7 @@
     border-radius: 3px;
     background-color: rgb(72, 122, 221);
     color: white;
-   padding: 10px 20px; 
+    padding: 10px 20px; 
 }
 
 .buttonDelete {
@@ -62,5 +70,5 @@
     border-radius: 3px;
     background-color: rgb(169, 26, 26);
     color: white;
-   padding: 10px 20px; 
+    padding: 10px 20px; 
 }
